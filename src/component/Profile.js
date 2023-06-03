@@ -8,8 +8,8 @@ function Profile() {
 <h3>The Sub Component are:</h3>
 
 <ul>
-    <Link to='details'><li>Profile details</li></Link>
-    <Link to='reset-password'><li>Reset Password</li></Link>
+    <a to='details'><li>Profile details</li></a>
+    <a to='reset-password'><li>Reset Password</li></a>
 </ul>
 <Outlet/>
 </div>
